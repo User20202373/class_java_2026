@@ -71,6 +71,7 @@ public class MoveCharFrame extends JFrame implements KeyListener {
         } else if (KeyCode == KeyEvent.VK_RIGHT) {
             label.setLocation(x + MOVE_STEP, y);
 
+
         } else if (KeyCode == KeyEvent.VK_DOWN) {
             label.setLocation(x, y + MOVE_STEP);
 
