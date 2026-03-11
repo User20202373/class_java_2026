@@ -30,6 +30,7 @@ public class ColorChangeFrame extends JFrame implements ActionListener {
         add(panel1);
         panel1.add(button1);
         panel1.add(button2);
+
         setVisible(true);
     }
 
