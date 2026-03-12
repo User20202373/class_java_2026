@@ -27,7 +27,7 @@ public class LottoFrameTest extends JFrame implements ActionListener {
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 
         label = new JLabel("Game Start 버튼을 눌러주세요.");
-        label.setFont(new Font("맑은 고딕",Font.BOLD, 30));
+        label.setFont(new Font("맑은 고딕", Font.BOLD, 30));
         label.setHorizontalAlignment(JLabel.CENTER);
         label.setForeground(Color.GRAY);
 
